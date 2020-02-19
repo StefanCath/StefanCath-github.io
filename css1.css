@@ -1,0 +1,77 @@
+body {
+    color: rgb(30,33,31);
+    padding: 5% 10% 20% 10%;
+    position: relative;
+}
+
+.card {
+    margin-bottom: 2.9rem;
+}
+
+.container-fluid {
+    padding-top: 10%;
+}
+
+#aside-nav {
+    position: fixed;
+}
+
+.navli {
+    color:rgb(30,33,31);
+    font-size: 1.9rem;
+}
+
+.jumb-logo {
+    background-color: rgb(102, 102, 102);
+    color: white;
+    height: 22%;
+
+}
+
+.name {
+    font-size: 2.7rem;
+}
+
+.name span {
+    font-size: 2rem;
+}
+
+.cards-section {
+   position: sticky;
+}
+
+#nav-about.active {
+    background-color: rgb(227, 52, 58);
+}
+
+.card-about {
+    background-color: rgb(227, 52, 58);
+}
+
+#nav-skills.active {
+    background-color: rgb(34, 161, 36);
+}
+
+.card-skills {
+    background-color: rgb(34, 161, 36);
+}
+
+#nav-projects.active {
+    background-color: rgb(233, 177, 23);
+}
+
+.card-projects {
+    background-color: rgb(233, 177, 23);
+}
+
+#nav-contact.active {
+    background-color: rgb(33, 104, 158);
+}
+
+.card-contact {
+    background-color: rgb(33, 104, 158);
+}
+
+.project-cards-container {
+    display: flex;
+}
